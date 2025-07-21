@@ -140,7 +140,7 @@
 <script>
 "use strict";
 
-if ( typeof(process) === 'undefined' || process.env.VUE_ENV === 'client' ) {
+if ( typeof(process) === 'object' ) {
 
 	var hasFileAPI = window.FileReader && window.FormData;
 
